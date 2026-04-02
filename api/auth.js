@@ -1,8 +1,8 @@
 module.exports = (req, res) => {
   const auth = req.headers.authorization
 
-  const username = 'glico'
-  const password = '2024'
+  const username = 'tasu0630'
+  const password = 'Plus1862ke'
 
   if (!auth) {
     res.setHeader('WWW-Authenticate', 'Basic realm="Secure Area"')
