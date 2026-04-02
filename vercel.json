@@ -3,6 +3,10 @@
     {
       "src": "/(.*)",
       "dest": "/api/auth"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
     }
   ]
 }
